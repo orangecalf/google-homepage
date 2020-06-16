@@ -1,0 +1,36 @@
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-right: 30px;
+ 
+  }
+
+li {
+    display: inline;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    color: rgba(0,0,0,0.87);
+    padding-left: 15px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.icon {
+    background-position: -132px -38px;
+    opacity: .55;
+    background-image: url(top-icon.png);
+    z-index: 1;
+    overflow: visible;
+    box-sizing: border-box;
+
+}
