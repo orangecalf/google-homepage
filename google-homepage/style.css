@@ -1,20 +1,18 @@
-.nav-bar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    padding-right: 30px;
- 
-  }
+body {
+    padding: 0px;
+    margin: 0px;
 
-li {
+
+}
+
+a {
     display: inline;
     font-family: arial,sans-serif;
     font-size: 13px;
     color: rgba(0,0,0,0.87);
     padding-left: 15px;
-    padding-top: 10px;
-    box-sizing: border-box;
+    padding-right: 15px;
+    box-sizing: content-box;
 }
 
 .right {
@@ -25,12 +23,26 @@ li {
     float: left;
 }
 
+
 .icon {
     background-position: -132px -38px;
     opacity: .55;
     background-image: url(top-icon.png);
-    z-index: 1;
+    z-index: 10;
     overflow: visible;
     box-sizing: border-box;
+    height: 30px;
+    width: 30px;
 
+}
+
+.signin {
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    color: white;
+    padding-right: 12;
+    padding-left: 12px;
+    border-radius: 1px;
 }
