@@ -61,3 +61,20 @@ img {
     padding-top: 109px;
     
 }
+
+
+#search-box {
+    width: 100%;
+    text-align: center;
+}
+
+#box {
+    width: 584px;
+    border: 0px;
+    background-color: lightblue;
+
+}
+
+.btn {
+    
+}
