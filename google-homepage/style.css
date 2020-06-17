@@ -1,8 +1,10 @@
 body {
     padding: 0px;
     margin: 0px;
-
-
+    display: grid;
+}
+.nav-bar {
+    position: relative;
 }
 
 a {
@@ -13,6 +15,7 @@ a {
     padding-left: 15px;
     padding-right: 15px;
     box-sizing: content-box;
+    line-height: 28px;
 }
 
 .right {
@@ -28,8 +31,6 @@ a {
     background-position: -132px -38px;
     opacity: .55;
     background-image: url(top-icon.png);
-    z-index: 10;
-    overflow: visible;
     box-sizing: border-box;
     height: 30px;
     width: 30px;
@@ -45,4 +46,18 @@ a {
     padding-right: 12;
     padding-left: 12px;
     border-radius: 1px;
+}
+
+#logo-big-div {
+    height: 233px;
+    margin-top: 89px;
+    text-align: center;
+    width: 100%;
+}
+
+img {
+    height: 92px;
+    width: 272px;
+    padding-top: 109px;
+    
 }
