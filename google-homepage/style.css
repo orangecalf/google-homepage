@@ -71,19 +71,20 @@ img {
 }
 
 #box {
-    width: 584px;
+    width: 478px;
+    height: 33px;
     border: 0px;
-    background-color: lightblue;
     height: 20px;
     padding-left: 10px;
     padding-right: 10px;
+    font-size: 16px;
+    vertical-align: middle;
+    margin-bottom: 5;
 
 
 }
 
-.btn {
-    
-}
+
 
 
 
@@ -98,14 +99,23 @@ img {
 
 #boxx {
     display: inline-block;
-    border: 1px solid rgba(109, 51, 51, 0.87);
-    border-radius: 25px;
+    border: 2px solid rgba(109, 129, 165, 0.349) ;
+    border-radius: 25px; 
+    padding: 5px 8px 0 16px;
+    width: auto;
+
     
 }
 
+#boxx:hover {
+    box-shadow: 0 0 3px gray;
+}
+
 #search-icon {
-    height: 20px;
-    width: 20px;
+    height: 14px;
+    width: 11px;
+    padding-right: 4px;
+    padding-left: 3px;
 
 
 }
@@ -113,11 +123,15 @@ img {
 
 #box:focus {
     outline-style: none;
+    font-size: 16px;
 
 
 }
 
 #mic-icon {
-    height: 20px;
-    width: 20px;
+    height: 17px;
+    width: 13px;
+    padding-right: 4px;
+    padding-left: 3px;
+
 }
